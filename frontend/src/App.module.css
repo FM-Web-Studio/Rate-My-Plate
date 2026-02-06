@@ -765,11 +765,16 @@
   font-style: italic;
   color: var(--secondary-text-color);
   text-align: center;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: normal;
 }
 
 .motto p {
   margin: 0;
   font-size: 0.95rem;
+  line-height: 1.5;
+  white-space: normal;
 }
 
 /* ============================================
@@ -1242,6 +1247,15 @@
     gap: 1.5rem;
   }
 
+  .spy-card {
+    height: 680px;
+  }
+
+  .card-back {
+    padding: 1.75rem;
+    gap: 1.3rem;
+  }
+
   .agent-image-container {
     height: 350px;
   }
@@ -1270,11 +1284,25 @@
   }
 
   .spy-card {
-    height: 600px;
+    height: 680px;
+  }
+
+  .card-back {
+    padding: 1.5rem;
+    gap: 1.2rem;
   }
 
   .agent-image-container {
     height: 320px;
+  }
+
+  .motto {
+    padding: 0.75rem;
+  }
+
+  .motto p {
+    font-size: 0.85rem;
+    line-height: 1.4;
   }
 
   .hero {
