@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { ThemeSwitch, Loading } from './components';
+import { Routes, Route } from 'react-router-dom';
+import { ThemeSwitch, Loading, NotFound } from './components';
 import { useTheme } from './hooks';
 import pageData from './information/page.json';
 import spiesData from './information/spies.json';
@@ -101,10 +102,10 @@ const SpyCard = ({ agent, index }) => {
 };
 
 // ============================================
-// MAIN APP COMPONENT
+// HOME PAGE COMPONENT
 // ============================================
 
-function App() {
+const HomePage = () => {
   const { theme, toggleTheme } = useTheme();
   const [loading, setLoading] = useState(true);
 
@@ -356,6 +357,19 @@ function App() {
         </div>
       </footer>
     </div>
+  );
+};
+
+// ============================================
+// MAIN APP COMPONENT
+// ============================================
+
+function App() {
+  return (
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="*" element={<NotFound />} />
+    </Routes>
   );
 }
 
