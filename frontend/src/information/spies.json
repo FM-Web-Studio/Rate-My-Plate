@@ -1,0 +1,77 @@
+{
+  "agents": [
+    {
+      "id": "agent-007",
+      "name": "Francois",
+      "codename": "Le Sophistiqué",
+      "image": "Francois.png",
+      "classification": "Master of Culinary Espionage",
+      "status": "Extremely Active",
+      "stats": {
+        "fancy": 99,
+        "strength": 95,
+        "intelligence": 97,
+        "humor": 92,
+        "cooking": 98
+      },
+      "specialties": ["Fancy Food", "Witty Banter", "Looking Good", "Being Right"],
+      "motto": "I don't always cook, but when I do, it's fancy AF",
+      "clearanceLevel": "007"
+    },
+    {
+      "id": "agent-011",
+      "name": "Nathan",
+      "codename": "The Sandton Soutie",
+      "image": "Nathan.png",
+      "classification": "Suburban Legend",
+      "status": "Vibing",
+      "stats": {
+        "humor": 94,
+        "sandtonness": 98,
+        "streetSmarts": 85,
+        "cooking": 78,
+        "banter": 96
+      },
+      "specialties": ["Braai Master", "Epic Stories", "Sandton Survival", "Coffee Snob"],
+      "motto": "From Sandton with love (and a cappuccino)",
+      "clearanceLevel": "Classified"
+    },
+    {
+      "id": "agent-420",
+      "name": "Sunika",
+      "codename": "The Zen Warrior",
+      "image": "Sunika.png",
+      "classification": "Creative Hippie Extraordinaire",
+      "status": "One with Nature",
+      "stats": {
+        "artisticVibes": 99,
+        "height": 97,
+        "zenMode": 95,
+        "creativity": 98,
+        "hippieEnergy": 100
+      },
+      "specialties": ["Art Magic", "Good Vibes Only", "Plant Whispering", "Towering Presence"],
+      "motto": "Peace, love, and some seriously good food",
+      "clearanceLevel": "Enlightened"
+    }
+    ,
+    {
+      "id": "agent-013",
+      "name": "Lize",
+      "codename": "The Elusive",
+      "image": "Lize.png",
+      "classification": "Culinary Whisperer",
+      "status": "Hard to Reach, Highly Valued",
+      "stats": {
+        "cooking": 92,
+        "chatty": 98,
+        "reliability": 62,
+        "flair": 88,
+        "comfortFoodSkill": 95
+      },
+      "specialties": ["Comfort Food", "Secret Recipes", "Nonstop Conversation"],
+      "motto": "Difficult to get, impossible to forget",
+      "clearanceLevel": "Confidential"
+    }
+  ]
+}

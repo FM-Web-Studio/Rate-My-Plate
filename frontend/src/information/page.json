@@ -1,0 +1,96 @@
+{
+  "title": "Operation: Dinner Party",
+  "subtitle": "Mission #2 - Agent 007's Fancy Affair",
+  "tagline": "Come Dine With Me - Spy Edition",
+  "missionCode": "MISSION-007-FANCY",
+  "description": "You are cordially invited to the second mission in our culinary espionage series",
+  "currentMission": {
+    "host": "Agent 007 (Francois)",
+    "missionNumber": 2,
+    "location": {
+      "venue": "The Galloway Estate",
+      "address": "Irene, Centurion",
+      "city": "Gauteng, South Africa",
+      "coordinates": "🗺️ Top Secret Location"
+    },
+    "theme": "Sophisticated Spy Elegance",
+    "dressCode": "Fancy - Channel your inner Bond/Spy",
+    "menu": {
+      "title": "🔒 CLASSIFIED MENU",
+      "items": [
+        { "course": "Starter", "dish": "███████ (Classified)" },
+        { "course": "Main Dish", "dish": "███████ (Classified)" },
+        { "course": "Dessert", "dish": "███████ (Classified)" }
+      ],
+      "note": "All dishes remain classified until the mission commences"
+    },
+    "previousMission": {
+      "number": 1,
+      "host": "Agent 420 (Sunika)",
+      "theme": "Hippie Vibes",
+      "status": "✓ Successfully Completed"
+    }
+  },
+  "sections": {
+    "howItWorks": {
+      "title": "Mission Objectives",
+      "points": [
+        "Each dinner has one person cooking & hosting",
+        "We all go to their place to eat",
+        "At the end of the night, everyone gives a score",
+        "Scores are for fun — don't take it personally"
+      ]
+    },
+    "datesAndTimes": {
+      "title": "Scheduling Protocol",
+      "points": [
+        "For each dinner, a few date + time options will be posted",
+        "Everyone votes on what works best",
+        "The most popular option wins",
+        "The host chooses the location (their place)"
+      ]
+    },
+    "importantBits": {
+      "title": "Critical Intel",
+      "points": [
+        "Everyone in the group gets their own cooking night",
+        "Couples compete as individuals, not as a team",
+        "No fixed schedule — we plan one dinner at a time"
+      ]
+    },
+    "unwrittenRules": {
+      "title": "Classified Rules",
+      "points": [
+        "Points will be deducted if you make us sick or poison us (Francois)",
+        "Be honest, not harsh",
+        "No arguing with the scores",
+        "Come hungry"
+      ]
+    },
+    "ratingCriteria": {
+      "title": "Assessment Criteria",
+      "criteria": [
+        {
+          "name": "Taste",
+          "description": "How good the food actually tasted",
+          "icon": "🍽️"
+        },
+        {
+          "name": "Looks",
+          "description": "How appealing the food looked on the plate",
+          "icon": "👁️"
+        },
+        {
+          "name": "Theme & Vibe",
+          "description": "How well the theme and overall atmosphere came together",
+          "icon": "🎭"
+        },
+        {
+          "name": "Invitation & Hosting",
+          "description": "How welcoming, organised, and enjoyable the hosting was",
+          "icon": "🏠"
+        }
+      ]
+    }
+  }
+}
