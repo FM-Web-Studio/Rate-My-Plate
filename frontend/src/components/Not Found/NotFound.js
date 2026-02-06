@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useTheme } from '../../hooks/useTheme';
-import { Home, Compass, Palette } from 'lucide-react';
+import { Home, Compass } from 'lucide-react';
 
 // ============================================
 // IMPORTS - STYLING
@@ -81,24 +81,6 @@ const NotFound = () => {
               <span>Go Back</span>
             </button>
           </div>
-
-          {/* Quick Links */}
-          <div className={styles.quickLinks}>
-            <p className={styles.quickLinksTitle}>Or explore:</p>
-            <div className={styles.links}>
-              <a href="/bio" className={styles.link}>
-                <span>About Me</span>
-              </a>
-              <a href="/gallery" className={styles.link}>
-                <Palette />
-                <span>Gallery</span>
-              </a>
-              <a href="/connect" className={styles.link}>
-                <span>Connect</span>
-              </a>
-            </div>
-          </div>
-
         </div>
       </div>
 
