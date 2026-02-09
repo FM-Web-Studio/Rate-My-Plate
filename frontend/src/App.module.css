@@ -511,6 +511,7 @@
   height: 100%;
   transition: transform 0.8s;
   transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
 }
 
 .spy-card.flipped .card-inner {
@@ -523,6 +524,9 @@
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
   border-radius: 12px;
   border: 2px solid var(--border-color);
   background: var(--background-2);
@@ -539,6 +543,7 @@
 
 .card-back {
   transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
   padding: 2rem;
   display: flex;
   flex-direction: column;
@@ -558,6 +563,8 @@
   border-radius: 3px;
   z-index: 10;
   animation: fadeInDown 0.5s ease-out;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
 .agent-image-container {
@@ -608,6 +615,10 @@
 .agent-info {
   padding: 1.5rem;
   text-align: center;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
 }
 
 .agent-status {
@@ -633,6 +644,10 @@
   font-weight: 800;
   margin: 0.5rem 0;
   color: var(--primary-text-color);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
 }
 
 .agent-codename {
@@ -641,6 +656,9 @@
   font-style: italic;
   font-weight: 600;
   margin: 0.3rem 0;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transform: translateZ(0);
 }
 
 .agent-classification {
