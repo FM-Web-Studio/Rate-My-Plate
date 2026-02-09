@@ -177,6 +177,14 @@ const HomePage = () => {
                 <span className={styles['label']}>Mission Number:</span>
                 <span className={styles['value']}>#{pageData.currentMission.missionNumber}</span>
               </div>
+              <div className={styles['mission-info-row']}>
+                <span className={styles['label']}>Mission Date:</span>
+                <span className={styles['value']}>{pageData.currentMission.date}</span>
+              </div>
+              <div className={styles['mission-info-row']}>
+                <span className={styles['label']}>Mission Time:</span>
+                <span className={styles['value']}>{pageData.currentMission.time}</span>
+              </div>
               <div className={styles['location-info']}>
                 <h4>{pageData.currentMission.location.venue}</h4>
                 <p>{pageData.currentMission.location.address}</p>

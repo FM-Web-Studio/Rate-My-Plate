@@ -1,77 +1,128 @@
 {
   "agents": [
     {
-      "id": "agent-007",
+      "id": "agent-000",
       "name": "Francois",
-      "codename": "Le Sophistiqué",
+      "codename": "The Final Boss",
       "image": "Francois.png",
-      "classification": "Master of Culinary Espionage",
-      "status": "Extremely Active",
+      "classification": "Overqualified Host Operative",
+      "status": "Relentlessly Active",
       "stats": {
-        "fancy": 99,
-        "strength": 95,
-        "intelligence": 97,
-        "humor": 92,
-        "cooking": 98
+        "strength": 96,
+        "intelligence": 98,
+        "codingSkill": 95,
+        "socialCharm": 93,
+        "cooking": 91,
+        "ego": 88,
+        "takingDaysOff": 12
       },
-      "specialties": ["Fancy Food", "Witty Banter", "Looking Good", "Being Right"],
-      "motto": "I don't always cook, but when I do, it's fancy AF",
-      "clearanceLevel": "007"
+      "specialties": [
+        "Outperforming Everyone",
+        "Gym Surveillance",
+        "Academic Flexing",
+        "Accidentally Intimidating Others"
+      ],
+      "motto": "I didn't choose to be overpowered. It just happened.",
+      "clearanceLevel": "OMEGA"
+    },
+    {
+      "id": "agent-420",
+      "name": "Sunika",
+      "codename": "The Velvet Manipulator",
+      "image": "Sunika.png",
+      "classification": "Hippie Psychological Operative",
+      "status": "Aligned with the Universe",
+      "stats": {
+        "empathy": 97,
+        "persuasion": 94,
+        "manipulation": 89,
+        "natureBond": 99,
+        "aestheticPresence": 96,
+        "aggression": 8,
+        "beingMean": 2
+      },
+      "specialties": [
+        "Soft Power",
+        "Looking Ethereal",
+        "Emotional Intel Gathering",
+        "Convincing You It Was Your Idea"
+      ],
+      "motto": "Love everyone. Control gently.",
+      "clearanceLevel": "ENLIGHTENED"
     },
     {
       "id": "agent-011",
       "name": "Nathan",
       "codename": "The Sandton Soutie",
       "image": "Nathan.png",
-      "classification": "Suburban Legend",
-      "status": "Vibing",
+      "classification": "Corporate Recon Specialist",
+      "status": "Over-Caffeinated",
       "stats": {
-        "humor": 94,
-        "sandtonness": 98,
-        "streetSmarts": 85,
-        "cooking": 78,
-        "banter": 96
+        "humor": 91,
+        "languageSkill": 88,
+        "musicalTalent": 85,
+        "curiosity": 99,
+        "coffeeDependence": 100,
+        "mindYourOwnBusiness": 9,
+        "sleepQuality": 14
       },
-      "specialties": ["Braai Master", "Epic Stories", "Sandton Survival", "Coffee Snob"],
-      "motto": "From Sandton with love (and a cappuccino)",
-      "clearanceLevel": "Classified"
+      "specialties": [
+        "Asking Dangerous Questions",
+        "Office Intelligence",
+        "Coffee Analysis",
+        "Unexpected Musical Performances"
+      ],
+      "motto": "But *why* did you choose that?",
+      "clearanceLevel": "LATTE-LEVEL"
     },
-    {
-      "id": "agent-420",
-      "name": "Sunika",
-      "codename": "The Zen Warrior",
-      "image": "Sunika.png",
-      "classification": "Creative Hippie Extraordinaire",
-      "status": "One with Nature",
-      "stats": {
-        "artisticVibes": 99,
-        "height": 97,
-        "zenMode": 95,
-        "creativity": 98,
-        "hippieEnergy": 100
-      },
-      "specialties": ["Art Magic", "Good Vibes Only", "Plant Whispering", "Towering Presence"],
-      "motto": "Peace, love, and some seriously good food",
-      "clearanceLevel": "Enlightened"
-    }
-    ,
     {
       "id": "agent-013",
       "name": "Lize",
-      "codename": "The Elusive",
+      "codename": "The Offline Ghost",
       "image": "Lize.png",
-      "classification": "Culinary Whisperer",
-      "status": "Hard to Reach, Highly Valued",
+      "classification": "Unreachable Communications Expert",
+      "status": "Seen Last: 3 Days Ago",
       "stats": {
-        "cooking": 92,
-        "chatty": 98,
-        "reliability": 62,
-        "flair": 88,
-        "comfortFoodSkill": 95
+        "inPersonConversation": 96,
+        "phoneResponsiveness": 4,
+        "gamingSkill": 92,
+        "screenTime": 99,
+        "reliability": 38,
+        "vibesWhenPresent": 95
       },
-      "specialties": ["Comfort Food", "Secret Recipes", "Nonstop Conversation"],
-      "motto": "Difficult to get, impossible to forget",
-      "clearanceLevel": "Confidential"
+      "specialties": [
+        "Endless Talking (IRL Only)",
+        "Video Game Mastery",
+        "Selective Availability",
+        "Sudden Deep Chats"
+      ],
+      "motto": "I'll reply later (she will not).",
+      "clearanceLevel": "DO-NOT-CALL"
+    },
+    {
+      "id": "agent-014",
+      "name": "Keegan",
+      "codename": "The Optical Illusion",
+      "image": "Keegan.png",
+      "classification": "Bulking Phase Operative",
+      "status": "Trustworthy but Nervous",
+      "stats": {
+        "actualMuscleMass": 22,
+        "photoMuscleMass": 96,
+        "determination": 94,
+        "reliability": 91,
+        "humor": 87,
+        "confidenceAroundGirls": 11,
+        "commitmentToBulk": 100
+      },
+      "specialties": [
+        "Showing Up",
+        "Trying His Best",
+        "Gym Consistency",
+        "Being Way Funnier Than He Thinks"
+      ],
+      "motto": "Trust the bulk. Avoid eye contact.",
+      "clearanceLevel": "WORK-IN-PROGRESS"
     }
   ]
 }
