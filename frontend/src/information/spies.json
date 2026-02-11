@@ -3,27 +3,27 @@
     {
       "id": "agent-000",
       "name": "Francois",
-      "codename": "The Final Boss",
+      "codename": "The Quiet Analyst",
       "image": "Francois.png",
-      "classification": "Overqualified Host Operative",
-      "status": "Relentlessly Active",
+      "classification": "Data & Systems Specialist",
+      "status": "Active",
       "stats": {
-        "strength": 96,
-        "intelligence": 98,
-        "codingSkill": 95,
-        "socialCharm": 93,
-        "cooking": 91,
-        "ego": 88,
-        "takingDaysOff": 12
+        "strength": 68,
+        "intelligence": 90,
+        "codingSkill": 92,
+        "socialCharm": 72,
+        "cooking": 65,
+        "ego": 22,
+        "takingDaysOff": 55
       },
       "specialties": [
-        "Outperforming Everyone",
-        "Gym Surveillance",
-        "Academic Flexing",
-        "Accidentally Intimidating Others"
+        "Data Problem Solving",
+        "Supporting Teammates",
+        "Gym Consistency",
+        "Making Friends Feel Comfortable"
       ],
-      "motto": "I didn't choose to be overpowered. It just happened.",
-      "clearanceLevel": "OMEGA"
+      "motto": "Learn, laugh, and help where you can.",
+      "clearanceLevel": "SIGMA"
     },
     {
       "id": "agent-420",
